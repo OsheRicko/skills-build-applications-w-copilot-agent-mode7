@@ -37,6 +37,7 @@ const Leaderboard = () => {
                   <td>{entry.user ? entry.user : 'Unknown'}</td>
                   <td>{entry.score}</td>
                   <td>{entry.rank}</td>
+                  <td>}</td>
                 </tr>
               ))}
             </tbody>
